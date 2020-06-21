@@ -250,7 +250,8 @@ figure {
   width: 100%;
   float: left;
   margin-bottom: 10em;
-  clear: both; }
+  clear: both;
+   }
   #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
@@ -273,7 +274,7 @@ figure {
       @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
-          top: 100px; } }
+          top: 100px; } }6
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
@@ -393,9 +394,11 @@ body.offcanvas {
 .colorlib-work,
 .colorlib-about,
 .colorlib-services,
-.colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+.colorlib-contact, 
+.colorlib-achievements,
+.colorlib-certifications {
+  padding-top: 1em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -407,7 +410,9 @@ body.offcanvas {
     .colorlib-work,
     .colorlib-about,
     .colorlib-services,
-    .colorlib-contact {
+    .colorlib-contact,
+    .colorlib-achievements,
+    .colorlib-certifications {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
@@ -419,7 +424,8 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
+  margin-left: 0em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
