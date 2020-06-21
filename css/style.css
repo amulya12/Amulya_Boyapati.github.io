@@ -413,8 +413,8 @@ body.offcanvas {
     .colorlib-contact,
     .colorlib-achievements,
     .colorlib-certifications {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 1em;
+      padding-bottom: 2em; } }
 
 .author-img {
   background-size: cover;
@@ -435,7 +435,7 @@ body.offcanvas {
     display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-heading {
-      margin-bottom: 3em; } }
+      margin-bottom: 2em; } }
 
 .heading-meta {
   margin-bottom: 15px;
