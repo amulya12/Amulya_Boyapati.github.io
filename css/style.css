@@ -1450,3 +1450,17 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+#list{
+    color: #000;
+    background: white;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "\00BB";
+}
