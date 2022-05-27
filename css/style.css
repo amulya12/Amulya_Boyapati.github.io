@@ -1451,4 +1451,6 @@ body.offcanvas {
 .js .animate-box {
   opacity: 0; }
 
-
+#list{
+  list-style-type: circle;
+}
