@@ -1454,6 +1454,7 @@ body.offcanvas {
 #list{
     color: #000;
     background: white;
+    font-size: 15px;
 }
 
 li{
